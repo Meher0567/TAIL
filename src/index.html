@@ -3,12 +3,286 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home - Netflix</title>
+    <link rel="icon" type="image/x-icon" href="/TAIL/media/logo icon.png">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <!-- ----------- navbar ------------- -->
-     <div></div>
-     
+<body class="bg-black overflow-x-hidden text-white">
+
+   <!-- ---------------------  top. -------------------- -->
+    <div class="absolute inset-0 -z-10">
+        <img class="w-full h-[70vh] md:h-[90vh] object-cover"
+            src="/TAIL/media/carousel.webp" alt="">
+
+      
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+
+        
+        <div
+            class="absolute right-0 top-24 md:top-40 bg-[#653033] border-l border-white px-4 py-1 opacity-80">
+            18+
+        </div>
+    </div>
+
+    <!-- ---------------------  Navbar -------------------- -->
+   
+          <div class="flex items-center justify-between px-4 md:px-8 py-2">
+
+       
+        <div>
+            <img class="h-12 sm:h-16 md:h-20 w-auto object-contain"
+                src="/TAIL/media/netflix top.png" alt="">
+        </div>
+
+        <div class="flex items-center justify-between w-full">
+
+            
+            <div class="flex items-center">
+
+              
+                <ul class="hidden lg:flex gap-6 text-slate-300 ml-6">
+                    <li class="text-white">Home</li>
+                    <li>Shows</li>
+                    <li>Movies</li>
+                    <li>Games</li>
+                    <li>New & Popular</li>
+                    <li>My List</li>
+                    <li>Browse by language</li>
+                    </ul>
+
+                
+                    <div class="flex lg:hidden text-sm sm:text-base ml-4">
+                    Browse ▼
+                </div>
+                     </div>
+
+            
+            <div class="flex items-center gap-3 sm:gap-5">
+
+               
+                <div class="hidden sm:flex">
+                    <svg class="h-6 md:h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.6725 16.6412L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                </div>
+
+                
+                <div class="hidden lg:flex">Kids </div>
+
+                
+                <div class="flex items-center gap-2">
+                    <img class="h-8 w-8 sm:h-10 sm:w-10 rounded-md object-cover"
+                        src="/TAIL/media/profile 2.jpeg" alt="">
+                    <p class="hidden sm:block">▼</p>
+                        </div>
+                           </div>
+                  </div>
+                  </div>
+
+    
+      <div
+        class="flex flex-col gap-4 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-28 mt-16 sm:mt-24 md:mt-32 lg:mt-40">
+
+       
+        <div> <img class="w-44 sm:w-64 md:w-80 lg:w-[450px] xl:w-[600px]" src="/TAIL/media/car title.webp" alt=""></div>
+
+        
+                    <div class="flex gap-4 flex-wrap">
+            <button class="bg-white text-black flex items-center gap-2 rounded-md px-4 py-2 font-semibold hover:bg-gray-300 transition">
+            <svg class="h-5" viewBox="0 0 24 24" fill="black"> <path d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"></path></svg> Play</button>
+
+            
+                   <button
+                class="bg-gray-500/70 flex items-center gap-2 rounded-md px-4 py-2 hover:bg-gray-500 transition"> <svg class="h-5" viewBox="0 0 24 24" fill="none"> <path d="M12 16.99V17M12 7V14M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"> </path></svg>More Info</button>
+                  </div>
+                                      </div>
+
+   <!-- ---------------------  slider1 -------------------- -->
+
+
+         <div class="mt-24 sm:mt-32 md:mt-44 px-4 md:px-8">
+
+        <h2 class="text-xl sm:text-2xl font-semibold mb-4">
+            Your List
+        </h2>
+
+       
+        <div class="flex gap-3 overflow-x-auto scrollbar-hide pb-4">
+
+            <div class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] transform hover:scale-125 transition-all duration-500 xl:h-56 bg-amber-50 rounded-md shrink-0">
+            <img class="w-full h-full" src="/TAIL/media/sl11.jpg" alt="">
+            </div>
+
+            <div class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] xl:h-56 transform hover:scale-125 transition-all duration-500  bg-amber-50 rounded-md shrink-0">
+                 <img class="w-full h-full" src="/TAIL/media/sl2.webp" alt="">
+            </div>
+
+            <div class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] xl:h-56 transform hover:scale-125 transition-all duration-500  bg-amber-50 rounded-md shrink-0">
+                 <img class="w-full h-full" src="/TAIL/media/sl13.jpg" alt="">
+            </div>
+
+            <div class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] xl:h-56 transform hover:scale-125 transition-all duration-500  bg-amber-50 rounded-md shrink-0">
+                 <img class="w-full h-full" src="/TAIL/media/sl14.jpg" alt="">
+            </div>
+
+            <div class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] xl:h-56 transform hover:scale-125 transition-all duration-500  bg-amber-50 rounded-md shrink-0">
+                 <img class="w-full h-full" src="/TAIL/media/sl6.jpg" alt="">
+            </div>
+
+                </div>
+                 </div>
+
+                     <div class="mt-24 sm:mt-32 md:mt-44 px-4 md:px-8">
+
+        <h2 class="text-xl sm:text-2xl font-semibold mb-4">
+            Watch it again
+        </h2>
+
+       
+        <div class="flex gap-3 overflow-x-auto scrollbar-hide pb-4">
+
+            <div class="min-w-[160px]  h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] xl:h-56 transform hover:scale-125 transition-all duration-500  bg-amber-50 rounded-md shrink-0">
+                <img class="w-full h-full" src="/TAIL/media/sl1.jpg" alt="">
+            </div>
+
+            <div class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] xl:h-56 transform hover:scale-125 transition-all duration-500  bg-amber-50 rounded-md shrink-0">
+                <img class="w-full h-full" src="/TAIL/media/sl2.webp" alt="">
+            </div>
+
+            <div class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] xl:h-56 transform hover:scale-125 transition-all duration-500  bg-amber-50 rounded-md shrink-0">
+                <img class="w-full h-full" src="/TAIL/media/sl3.jpg" alt="">
+            </div>
+
+            <div  class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] xl:h-56 transform hover:scale-125 transition-all duration-500  bg-amber-50 rounded-md shrink-0">
+                <img class="w-full h-full" src="/TAIL/media/sl6.jpg" alt="">
+            </div>
+
+            <div class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] xl:h-56 transform hover:scale-125 transition-all duration-500  bg-amber-50 rounded-md shrink-0">
+                <img class="w-full h-full" src="/TAIL/media/sl5.jpg" alt="">
+            </div>
+
+                </div>
+                 </div>
+
+
+ <!-- ---------------------  slider2 -------------------- -->
+
+
+                     <div class="mt-16 sm:mt-26 md:mt-32 px-4 md:px-8">
+
+        <h2 class="text-xl sm:text-2xl font-semibold mb-4">
+            Gems for you
+        </h2>
+
+       
+        <div class="flex gap-3 overflow-x-auto scrollbar-hide pb-4">
+
+            <div  class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] transform hover:scale-125 transition-all duration-500  xl:h-56 bg-amber-50 rounded-md shrink-0">
+             <img class="w-full h-full" src="/TAIL/media/sl7.jpg" alt="">
+            </div>
+
+            <div  class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] transform hover:scale-125 transition-all duration-500  xl:h-56 bg-amber-50 rounded-md shrink-0">
+             <img class="w-full h-full" src="/TAIL/media/sl8.jpg" alt="">
+            </div>
+
+            <div class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] transform hover:scale-125 transition-all duration-500  xl:h-56 bg-amber-50 rounded-md shrink-0">
+            <img class="w-full h-full" src="/TAIL/media/sl9.webp" alt="">
+            </div>
+
+            <div  class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] transform hover:scale-125 transition-all duration-500  xl:h-56 bg-amber-50 rounded-md shrink-0">
+            <img class="w-full h-full" src="/TAIL/media/sl10.jpg" alt="">
+            </div>
+
+            <div class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] transform hover:scale-125 transition-all duration-500  xl:h-56 bg-amber-50 rounded-md shrink-0">
+             <img class="w-full h-full" src="/TAIL/media/sl19.jpg" alt="">
+            </div>
+
+                </div>
+                 </div>
+
+   <!-- ---------------------  slider3 -------------------- -->
+
+                  <div class="mt-24 sm:mt-32 md:mt-44 px-4 md:px-8">
+
+        <h2 class="text-xl sm:text-2xl  mb-4">
+            Only on Netflix
+        </h2>
+
+       
+        <div class="flex gap-3 overflow-x-auto scrollbar-hide pb-4">
+
+            <div  class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] transform hover:scale-125 transition-all duration-500  xl:h-56 bg-amber-50 rounded-md shrink-0">
+             <img class="w-full h-full" src="/TAIL/media/sl8.jpg" alt="">
+            </div>
+
+            <div  class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] transform hover:scale-125 transition-all duration-500  xl:h-56 bg-amber-50 rounded-md shrink-0">
+             <img class="w-full h-full" src="/TAIL/media/sl17.webp" alt="">
+            </div>
+
+            <div  class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] transform hover:scale-125 transition-all duration-500  xl:h-56 bg-amber-50 rounded-md shrink-0">
+            <img class="w-full h-full" src="/TAIL/media/sl2.webp" alt="">
+            </div>
+
+            <div class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] transform hover:scale-125 transition-all duration-500  xl:h-56 bg-amber-50 rounded-md shrink-0">
+            <img class="w-full h-full" src="/TAIL/media/sl13.jpg" alt="">
+            </div>
+
+            <div class="min-w-[160px] h-24 sm:min-w-[220px] sm:h-32 lg:min-w-[260px] lg:h-36 xl:min-w-[380px] transform hover:scale-125 transition-all duration-500  xl:h-56 bg-amber-50 rounded-md shrink-0">
+            <img class="w-full h-full" src="/TAIL/media/sl3.jpg" alt="">
+            </div>
+
+                </div>
+                 </div>
+
+   <!-- ---------------------  footer -------------------- -->
+                 <div class="flex-col mt-28 h-80 text-xs text-[#5A5A5A] justify-around mb-8 px-40 space-y-3 ">
+                   
+                   <div><div class="flex gap-4">
+                            <svg class="h-8.25 w-8.25 pl-2" viewBox="-5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>facebook [#ededed]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-385.000000, -7399.000000)" fill="#ffffff"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M335.821282,7259 L335.821282,7250 L338.553693,7250 L339,7246 L335.821282,7246 L335.821282,7244.052 C335.821282,7243.022 335.847593,7242 337.286884,7242 L338.744689,7242 L338.744689,7239.14 C338.744689,7239.097 337.492497,7239 336.225687,7239 C333.580004,7239 331.923407,7240.657 331.923407,7243.7 L331.923407,7246 L329,7246 L329,7250 L331.923407,7250 L331.923407,7259 L335.821282,7259 Z" id="facebook-[#ededed]"> </path> </g> </g> </g> </g></svg>
+                            <svg class="h-8.25 w-8.25 pl-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#ffffff"></path> <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#ffffff"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#ffffff"></path> </g></svg>
+                            <svg class="h-8.25 w-8.25 pl-2" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M18.168 19.0028C20.4724 19.0867 22.41 17.29 22.5 14.9858V9.01982C22.41 6.71569 20.4724 4.91893 18.168 5.00282H6.832C4.52763 4.91893 2.58998 6.71569 2.5 9.01982V14.9858C2.58998 17.29 4.52763 19.0867 6.832 19.0028H18.168Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.008 9.17784L15.169 11.3258C15.3738 11.4454 15.4997 11.6647 15.4997 11.9018C15.4997 12.139 15.3738 12.3583 15.169 12.4778L12.008 14.8278C11.408 15.2348 10.5 14.8878 10.5 14.2518V9.75184C10.5 9.11884 11.409 8.77084 12.008 9.17784Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </div></div>
+                    <div class="flex flex-col md:flex-row gap-64  ">
+                                       <div class="flex-col space-y-[1rem]">
+                        
+                        <p class="hover:underline">Music</p>
+                        <p class="hover:underline">iNVESTOR</p>
+                        <p class="hover:underline">Relation</p>
+                        <p class="hover:underline">Legal NNotice</p>
+                    </div >
+                    <div class="flex-col space-y-[1rem]">
+                        <p class="hover:underline">Help</p>
+                        <p class="hover:underline">Jobs</p>
+                        <p class="hover:underline">Cookies</p>
+                    </div>
+                    <div class="flex-col space-y-[1rem]">
+                        <p class="hover:underline">Gift cards</p>
+                        <p class="hover:underline">Term of use</p>
+                        <p class="hover:underline">Media Center</p>
+                    </div>
+                    <div class="flex-col space-y-[1rem]"> 
+                        <p class="hover:underline">Privacy</p>
+                        <p class="hover:underline">Term of use</p>
+                        <p class="hover:underline">Corporate</p>
+                    </div>
+                    
+                    </div>
+                    <div>
+                        <div>
+                        © 1997-2026 Netflix, Inc.
+                    </div>
+                    </div>
+                 </div>
+
+
+                 <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 grid-rows-3 gap-5">
+                    <div class="bg-amber-300 min-w-20 row-span-3"></div>
+                    <div class="bg-red-400 min-w-20 col-span-2"></div>
+                    <div class="bg-pink-400 min-w-20 "></div>
+                    <div class="bg-purple-600 min-w-20 h-20"></div>
+                    <div class="bg-sky-600 min-w-20 h-20"></div>
+                    <div class="bg-indigo-500 min-w-20 row-span-2 "></div>
+                    <div class="bg-gray-700 min-w-20 h-20"></div>
+                    <div class="bg-fuchsia-800 min-w-20 h-20"></div>
+                 </div>
+
 </body>
 </html>
